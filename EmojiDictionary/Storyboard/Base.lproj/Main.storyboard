@@ -61,6 +61,11 @@
                                         <constraint firstItem="b60-1h-ltu" firstAttribute="leading" secondItem="nv7-Ct-FiO" secondAttribute="leading" id="rj9-WD-Pmw"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="descriptionLabel" destination="FRU-gM-C1f" id="67N-J2-EW0"/>
+                                    <outlet property="nameLabel" destination="Iu3-AM-vfe" id="isF-Ib-lj2"/>
+                                    <outlet property="symbolLabel" destination="XKE-Kr-APG" id="fxF-PH-vEe"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
